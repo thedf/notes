@@ -34,7 +34,7 @@ class Notes extends Component {
   render() {
     return (
       <div>
-        <h2>Memos</h2>
+        <h2>Memos'</h2>
         <AddNote onSubmit={this.handleAddNote}></AddNote>
         <ul>
           {this.state.notes.map((note) => {
