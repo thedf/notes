@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import shortid from "shortid";
-// import "./App.css";
+import "./App.css";
+
 
 class AddNote extends Component {
   state = {

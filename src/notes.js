@@ -2,7 +2,6 @@ import React, { Component } from "react";
 // import "./App.css";
 import AddNote from "./AddNote";
 import NoteElt from "./note";
-import note from "./note";
 
 class Notes extends Component {
   state = {
